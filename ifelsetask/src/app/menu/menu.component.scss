@@ -1,0 +1,58 @@
+$color: #ececec;
+$colorGrey: gray;
+
+.custom-menu {
+    padding: 0px 35px 0px 5px; 
+    position: fixed
+}
+
+.custom-border {
+    border-bottom: 2px solid $color;
+}
+
+.custom-display {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.custom-padding {
+    padding-right: 5px;
+}
+
+.custom-wght {
+    font-weight: 800
+}
+
+.custom-name {
+    font-weight: 700; 
+    font-size: 13px;
+}
+
+.menu-text {
+    color: $colorGrey; 
+    font-size: 12px; 
+    font-weight: 800;
+}
+
+.menu-item-main {
+    display: table; 
+    padding-right: 90px; 
+    background-color: #ffffff; 
+    border-radius: 5px;
+}
+
+.menu-item {
+    display: table; 
+    color: gray;
+}
+
+.menu-icon {
+    padding-right: 5px;
+}
+
+.menu-text-in {
+    font-weight: 800; 
+    font-size: 10px; 
+    display: table-cell; 
+    vertical-align: middle;
+}
